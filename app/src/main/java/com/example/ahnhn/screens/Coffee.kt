@@ -1,4 +1,4 @@
-package com.example.ahnhn
+package com.example.ahnhn.screens
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -7,19 +7,18 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material.icons.Icons
 import androidx.compose.material3.BottomAppBar
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
+import androidx.compose.material3.TextButton
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import com.example.ahnhn.ui.theme.AhnHnTheme
 import com.example.ahnhn.ui.theme.five
+import com.example.ahnhn.ui.theme.one
+import com.example.ahnhn.ui.theme.three
+import com.example.ahnhn.ui.theme.two
 
-class MainActivity : ComponentActivity() {
+class Coffee : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -32,8 +31,21 @@ class MainActivity : ComponentActivity() {
                     bottomBar = {
                         BottomAppBar (
                             actions = {
-
-                            }
+                                TextButton(
+                                    onClick = {}
+                                ) {
+                                    Text("coffee",
+                                        color = three)
+                                }
+                                TextButton(
+                                    onClick = {}
+                                ) {
+                                    Text("my mood",
+                                        color = one)
+                                }
+                            },
+                            modifier = Modifier,
+                            containerColor = two
                         )
                     }
                 )
