@@ -6,4 +6,4 @@ package com.example.ahnhn.ui.theme
 
 //https://spoonacular.com/food-api/docs#Search-Grocery-Products - API coffee search
 
-
+//https://any.ge/horoscope/api/?sign=aquarius&type=daily&day=today&lang=en - API free
