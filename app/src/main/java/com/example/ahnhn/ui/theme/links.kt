@@ -4,6 +4,6 @@ package com.example.ahnhn.ui.theme
 
 //https://astrologyapi.com/horoscope-api-docs/api-ref/75/sun_sign_prediction/daily/:zodiacName - API horoscope
 
-//https://github.com/josuablejeru/coffee-recipe-api?tab=readme-ov-file - GH repo coffee
+//https://spoonacular.com/food-api/docs#Search-Grocery-Products - API coffee search
 
 

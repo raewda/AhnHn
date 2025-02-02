@@ -1,6 +1,5 @@
 package com.example.ahnhn.screens
 
-
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -13,6 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
@@ -23,34 +23,45 @@ import com.example.ahnhn.ui.theme.three
 import com.example.ahnhn.ui.theme.two
 
 @Composable
-fun Coffee(
+fun MyMood(
     navController: NavHostController,
-    coffee: MutableState<Boolean>
-) {
+    start: MutableState<Boolean>
+)
+{
     Scaffold(
         modifier = Modifier
-        .fillMaxSize(),
+            .fillMaxSize(),
         containerColor = five,
-        bottomBar =
-        {
+        bottomBar = {
             BottomAppBar(
                 actions = {
                     Row(
-                        modifier = Modifier.fillMaxSize(),
+                        modifier = Modifier
+                            .fillMaxSize(),
                         horizontalArrangement = Arrangement.SpaceAround
                     ) {
-                        TextButton(onClick = {
-                            navController.navigate("coffee")
-                        }) {
+                        TextButton(
+                            onClick = {
+                                navController.navigate("coffee")
+                            }
+                        ) {
                             Text(
-                                "coffee", color = three, fontFamily = shadows, fontSize = 36.sp
+                                "coffee",
+                                color = one,
+                                fontFamily = shadows,
+                                fontSize = 36.sp
                             )
                         }
-                        TextButton(onClick = {
-                            navController.navigate("start")
-                        }) {
+                        TextButton(
+                            onClick = {
+                                navController.navigate("start")
+                            }
+                        ) {
                             Text(
-                                "my mood", color = one, fontFamily = shadows, fontSize = 36.sp
+                                "my mood",
+                                color = three,
+                                fontFamily = shadows,
+                                fontSize = 36.sp
                             )
                         }
                     }
@@ -59,16 +70,23 @@ fun Coffee(
                     .fillMaxWidth(),
                 containerColor = two
             )
-        })
-        { innerPadding ->
-            Column(
-                modifier = Modifier
+        }
+    )
+    { innerPadding ->
+        Column(
+            modifier = Modifier
                 .padding(innerPadding)
-                .fillMaxSize()
-            )
-            {
+                .fillMaxSize(),
+            horizontalAlignment = Alignment.Start
+        ) {
 
-            }
+            Text(
+                "Sweat day",
+                fontSize = 44.sp,
+                fontFamily = shadows,
+                color = three
+            )
 
         }
+    }
 }
