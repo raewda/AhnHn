@@ -21,6 +21,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import com.example.ahnhn.ui.theme.five
@@ -102,6 +103,7 @@ fun MyMood(
         }
     )
     { innerPadding ->
+
         Column(
             modifier = Modifier
                 .padding(innerPadding)
@@ -110,10 +112,21 @@ fun MyMood(
         ) {
 
             Text(
+                text = "raewda production",
+                modifier = Modifier
+                    .padding(start = 10.dp),
+                fontSize = 24.sp,
+                fontFamily = shadows,
+                color = two
+            )
+
+            Text(
                 "Sweat day",
                 fontSize = 44.sp,
                 fontFamily = shadows,
-                color = three
+                color = three,
+                modifier = Modifier
+                    .padding(horizontal = 10.dp)
             )
 
             LazyRow(
@@ -125,7 +138,8 @@ fun MyMood(
                             // передаём стейт зз
                             viewModel.horoscopeGive(item)
                         },
-                        modifier = Modifier,
+                        modifier = Modifier
+                            .padding(horizontal = 2.dp),
                         colors = ButtonDefaults.buttonColors(one)
                     ) {
                         Text(
@@ -143,7 +157,7 @@ fun MyMood(
                 Text(
                     text = horoscopeData.value.data?.horoscopeData?:"",
                     modifier = Modifier
-                        .padding(innerPadding),
+                        .padding(horizontal = 10.dp),
                     fontSize = 24.sp,
                     fontFamily = shadows,
                     color = four

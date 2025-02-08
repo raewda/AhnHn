@@ -1,3 +1,59 @@
 <resources>
     <string name="app_name">AhnHn</string>
+
+    <!--Salted Coffee-->
+    <string name="scname">Ca Phe Muoi</string>
+    <string name="scingredients">1 cup coffee, with milk and sugar if desired
+        6 tablespoons heavy cream
+        2 tablespoons sugar
+        ½ teaspoon kosher salt
+        ½ cup milk
+        2 tablespoons cocoa powder
+        ice
+    </string>
+    <string name="screcipe">
+        Chill coffee in the refrigerator until ready to use.
+        In a tall cup, add in the heavy cream, sugar, and salt. Whisk together with a mini whisk or electric frother until thick.
+        Fill a chilled glass with ice. Pour in the ⅓ cup of milk, the chilled brewed coffee, and top with as much salted cream as you’d like!
+        Dust with cocoa powder for garnish.
+        Enjoy!
+    </string>
+    
+    
+    <!--The Cracked Coffee Latte-->
+    <string name="cclattename">The Cracked Coffee Latte</string>
+    <string name="cclatteingredients">
+        1 cup milk of choice
+        2 shots espresso
+        1 tablespoon syrup or sweetener of choice
+        ⅓ cup dark or milk chocolate
+        ice cube
+    </string>
+    <string name="cclatterecipe">
+        Melt the chocolate in a microwave-safe bowl in 30-second increments, stirring in between each time until fully melted.
+        Pour the melted chocolate into a clear plastic cup, and coat the inside. Allow any excess to drip back into the bowl. Freeze the cup for about 10 minutes to set the chocolate.
+        Assemble the drink: Fill the chocolate-coated cup to the top with ice cubes. Then pour in the sweetener, followed by the milk and freshly brewed espresso.
+        Gently squeeze the cup to crack the chocolate mold, then give the drink a stir.
+        Enjoy!
+    </string>
+
+
+    <!--Pot Coffee-->
+    <string name="pcname">Cafecito De Olla</string>
+    <string name="pcingredients">
+        6 cups water(1.4 L)
+        ½ cup coffee grounds(60 g)
+        120 g piloncillo(120 g)
+        2 whole cinnamon sticks
+        2 whole star anise pods
+        5 whole cloves
+    </string>
+    <string name="pcrecipe">
+        In a medium pot, bring the water to a simmer over medium-low heat. Add the coffee grounds and piloncillo and stir for 2 minutes to dissolve the piloncillo. Add the cinnamon sticks, star anise pods, and cloves, and stir for 1 minute. Cover the pot and let the coffee simmer for 10 minutes.
+        Strain the coffee and serve immediately.
+        Enjoy!
+    </string>
+
+
+
 </resources>
