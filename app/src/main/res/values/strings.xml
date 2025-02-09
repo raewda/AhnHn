@@ -131,9 +131,141 @@
     </string>
 
 
+    <!--Vietnamese Coffee-->
+    <string name="vcname">Vietnamese Coffee</string>
+    <string name="vcingredients">
+        1 tablespoon ground chicory coffee
+        2 tablespoons sweetened condensed milk
+        1 cup hot water(240 mL)
+    </string>
+    <string name="vcrecipe">
+        Pour the ground coffee into a Vietnamese phin filter base. Place the phin filter strainer on top of the coffee.
+        Pour the sweetened condensed milk into a glass.
+        Place the phin assembly on top of the glass. Pour hot water into the phin filter. Place the phin filter lid on top and let the coffee drip through the filter into the glass.
+        Stir well before serving.
+        Enjoy!
+    </string>
 
 
+    <!--Snickers-Inspired Latte-->
+    <string name="silname">Snickers-Inspired Latte</string>
+    <string name="silingredients">
+        1 cup skim milk(240 mL)
+        1 cup sugar(200 g)
+        ½ cup creamy peanut butter(120 g)
+        1 teaspoon vanilla extract
+        ⅛ teaspoon kosher salt
+        1 cup whole milk(240 mL), frothed
+        4 oz brewed espresso(115 mL)
+        whipped cream, for topping
+        caramel syrup, for topping
+        chocolate syrup, for topping
+        crushed peanut, for topping
+        crushed nougat, for topping
+    </string>
+    <string name="silrecipe">
+        In a small saucepan over medium heat, whisk together the skim milk, sugar, peanut butter, and vanilla. Bring to a low simmer, whisking constantly, until the sugar has dissolved and the syrup is smooth and thick, 3–5 minutes. Add the salt, then remove the pot from the heat and let the syrup cool for 10–15 minutes, until thickened slightly. Leftover syrup will keep in an airtight container the refrigerator for up to 1 month.
+        Drizzle the peanut butter syrup around the inside rim of a large mug. Add the espresso and frothed whole milk. Top with whipped cream, caramel syrup, chocolate syrup, crushed peanuts, and crushed nougat.
+        Serve immediately.
+        Enjoy!
+    </string>
 
+
+    <!--Peanut Butter Espresso Martini-->
+    <string name="pbemname">Peanut Butter Espresso Martini</string>
+    <string name="pbemingredients">
+        1 teaspoon creamy peanut butter
+        1 cup ice
+        1 ½ oz Skrewball® Peanut Butter Whiskey
+        ½ oz coffee liqueur
+        1 ½ oz freshly brewed espresso
+        3 espresso beans, for garnish
+        smoked sea salt, for garnish
+    </string>
+    <string name="pbemrecipe">
+        Warm the peanut butter until it is loose enough to drizzle, then drizzle around the inside of a martini or coupe glass.
+        In a cocktail shaker filled with ice, combine the Skrewball® Peanut Butter Whiskey, coffee liqueur, and espresso and shake vigorously for 1 minute.
+        Strain the cocktail into the martini glass. Place the espresso beans in the center and finish with a pinch of smoked sea salt.
+        Enjoy!
+    </string>
+
+
+    <!--Java Chip Caffeinated Smoothie-->
+    <string name="jccsname">Java Chip Caffeinated Smoothie</string>
+    <string name="jccsingredients">
+        1 ½ cups coffee(360 mL), brewed, cooled
+        ½ cup half and half(120 mL)
+        ⅓ cup chocolate chips(60 g), plus more, crushed for topping
+        2 tablespoons sugar
+        6 coffee beans
+        whipped cream, for topping
+    </string>
+    <string name="jccsrecipe">
+        Pour the coffee into an ice cube tray. Freeze for at least 4 hours, or overnight.
+        Add the coffee ice cubes, half and half, chocolate chips, sugar, and coffee beans to a blender. Blend until smooth.
+        Pour into glasses and top with whipped cream and crushed chocolate chips.
+        Enjoy!
+    </string>
+
+
+    <!--3 Musketeers-Inspired Marshmallow Macchiato-->
+    <string name="mimmname">3 Musketeers-Inspired Marshmallow Macchiato</string>
+    <string name="mimmingredients">
+        1 cup whole milk(240 mL)
+        8 marshmallows
+        4 oz brewed espresso(110 mL)
+        Chocolate whipped cream, for topping
+        chocolate syrup, for topping
+        Red and Blue Sprinkle
+        Special Equipment, Espresso Machine
+    </string>
+    <string name="mimmrecipe">
+        In a small saucepan over medium heat, combine the milk and marshmallows and bring to a low simmer, stirring until the marshmallows melt, 3–5 minutes.
+        Pour the milk mixture into a large mug, along with the espresso.
+        Top with chocolate whipped cream, chocolate syrup, and red and blue sprinkles.
+        Serve immediately.
+        Enjoy!
+    </string>
+
+
+    <!--Twix Frappuccino Copycat-->
+    <string name="tfcname">Twix Frappuccino Copycat</string>
+    <string name="tfcingredients">
+        2 tablespoons simple syrup
+        1 tablespoon toffee syrup
+        2 tablespoons caramel syrup, plus more for serving
+        1 tablespoon hazelnut syrup
+        2 oz espresso(60 mL)
+        ¾ cup whole milk(180 mL)
+        1 tablespoon chocolate chips
+        1 ½ cups ice(210 g)
+        1 tablespoon whipped cream, plus more for topping
+        chocolate syrup, for serving
+    </string>
+    <string name="tfcrecipe">
+        In a blender, combine the simple syrup, toffee syrup, caramel syrup, hazelnut syrup, espresso, milk, chocolate chips, ice, and 1 tablespoon whipped cream. Blend until smooth.
+        Drizzle caramel syrup and chocolate syrup down the sides of a 20-ounce glass. Pour in the Frappuccino. Top with whipped cream and more caramel and chocolate syrup.
+        Enjoy!
+    </string>
+
+
+    <!--Frozen Irish Coffee-->
+    <string name="ficname">Frozen Irish Coffee</string>
+    <string name="ficingredients">
+        2 cups strong black coffee(470 g), cooled
+        1 ½ cups sweetened cream(355 mL)
+        3 oz irish whiskey(90 mL)
+        1 bar chocolate, melted
+    </string>
+    <string name="ficrecipe">
+        Pour coffee into ice molds and freeze.
+        Pour sweetened cream into ice molds and freeze.
+        Whip the remaining sweetened cream and set aside.
+        Take 4 cubes of frozen coffee and place in a blender, add 1.5 oz whiskey and blend until foamy.
+        Add 2 cubes of frozen sweetened cream and 1 tablespoon of chocolate, blend.
+        Top with whip cream and drizzle with more chocolate.
+        Enjoy!
+    </string>
 
 
 </resources>
