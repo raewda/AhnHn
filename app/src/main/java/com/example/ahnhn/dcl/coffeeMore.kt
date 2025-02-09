@@ -1,6 +1,7 @@
 package com.example.ahnhn.dcl
 
 import com.example.ahnhn.R
+import kotlin.random.Random
 
 open class coffeeMore(
     val id: Int,
@@ -23,27 +24,30 @@ open class coffeeMore(
     object mimm : coffeeMore (11, R.string.mimmname, R.string.mimmingredients, R.string.mimmrecipe, R.drawable.mimmimage)
     object tfc : coffeeMore (12, R.string.tfcname, R.string.tfcingredients, R.string.tfcrecipe, R.drawable.tfcimage)
     object fic : coffeeMore (13, R.string.ficname, R.string.ficingredients, R.string.ficrecipe, R.drawable.ficimage)
-//    object name : coffeeMore (14, R.string, R.string, R.string, R.drawable)
-//    object name : coffeeMore (15, R.string, R.string, R.string, R.drawable)
-//    object name : coffeeMore (16, R.string, R.string, R.string, R.drawable)
-//    object name : coffeeMore (17, R.string, R.string, R.string, R.drawable)
-//    object name : coffeeMore (18, R.string, R.string, R.string, R.drawable)
-//    object name : coffeeMore (19, R.string, R.string, R.string, R.drawable)
-//    object name : coffeeMore (20, R.string, R.string, R.string, R.drawable)
-//    object name : coffeeMore (21, R.string, R.string, R.string, R.drawable)
-//    object name : coffeeMore (22, R.string, R.string, R.string, R.drawable)
-//    object name : coffeeMore (23, R.string, R.string, R.string, R.drawable)
-//    object name : coffeeMore (24, R.string, R.string, R.string, R.drawable)
-//    object name : coffeeMore (25, R.string, R.string, R.string, R.drawable)
-//    object name : coffeeMore (26, R.string, R.string, R.string, R.drawable)
-//    object name : coffeeMore (27, R.string, R.string, R.string, R.drawable)
-//    object name : coffeeMore (28, R.string, R.string, R.string, R.drawable)
-//    object name : coffeeMore (29, R.string, R.string, R.string, R.drawable)
-//    object name : coffeeMore (30, R.string, R.string, R.string, R.drawable)
-//    object name : coffeeMore (31, R.string, R.string, R.string, R.drawable)
+    object mbd : coffeeMore (14, R.string.mbdname, R.string.mbdingredients, R.string.mbdrecipe, R.drawable.mbdimage)
+    object acbs : coffeeMore (15, R.string.acbsname, R.string.acbsingredients, R.string.acbsrecipe, R.drawable.acbsimage)
+    object a : coffeeMore (16, R.string.aname, R.string.aingredients, R.string.arecipe, R.drawable.aimage)
+    object yppil : coffeeMore (17, R.string.yppilname, R.string.yppilingredients, R.string.yppilrecipe, R.drawable.yppilimage)
+    object cghc : coffeeMore (18, R.string.cghcname, R.string.cghcingredients, R.string.cghcrecipe, R.drawable.cghcimage)
+    object icm : coffeeMore (19, R.string.icmname, R.string.icmingradients, R.string.icmrecipe, R.drawable.icmimage)
 
 
+    companion object{
+        const val Count: Int = 20
+        private val all = listOf(
+            sc, cclatte, pc, hamfw, ps, wc, cbwsasf, vc, sil, pbem, jccs, mimm, tfc, fic, mbd, acbs, a, yppil, cghc, icm
+        )
+        fun getById(id: Int): coffeeMore{
+            all.forEach(){
+                el -> if (el.id == id)
+                    return el
+            }
+            return sc
+        }
+    }
 
-
+    fun randomCoffee(): coffeeMore {
+        return coffeeMore.getById(Random.nextInt(0, coffeeMore.Count))
+    }
 
 }

@@ -66,6 +66,7 @@
         Add the espresso and honey to your desired mug and stir to combine.
         Froth the almond milk. See recipe notes for various frothing methods.
         Pour frothed almond milk over the espresso, garnish with a pinch of cinnamon, and serve immediately.
+        Enjoy!
     </string>
 
     <!--Pumpkin Spice Coffee-->
@@ -266,6 +267,118 @@
         Top with whip cream and drizzle with more chocolate.
         Enjoy!
     </string>
+
+
+    <!--Mocha Blended Drink-->
+    <string name="mbdname">Mocha Blended Drink</string>
+    <string name="mbdingredients">
+        ½ cup almond milk(120 mL), or milk of choice
+        ½ cup coffee(120 mL), cold
+        1 ½ tablespoons dark cocoa powder
+        1 banana, frozen
+        1 cup ice(140 g)
+
+        Garnish (Optional)
+        whipped cream
+        dark cocoa powder
+    </string>
+    <string name="mbdrecipe">
+        Put all ingredients into a blender and mix until smooth.
+        Serve in a glass and garnish with toppings (optional).
+        Enjoy!
+    </string>
+
+
+    <!--Avocado Cold Brew Smoothie-->
+    <string name="acbsname">Avocado Cold Brew Smoothie</string>
+    <string name="acbsingredients">
+        ½ cup cold brew coffee(120 mL)
+        ½ avocado, chopped
+        1 tablespoon vanilla extract
+        1 cup coconut milk(240 mL)
+        ½ cup vanilla yogurt(120 g)
+        2 cups ice(280 g)
+        coconut flake, for serving
+    </string>
+    <string name="acbsrecipe">
+        Add the cold brew coffee, avocado, vanilla, coconut milk, yogurt, and ice to a blender.
+        Blend until smooth.
+        Serve in a glass and top with coconut flakes.
+        Enjoy!
+    </string>
+
+
+    <!--Affogato-->
+    <string name="aname">Affogato</string>
+    <string name="aingredients">
+        2 scoops vanilla ice cream, (or vanilla gelato)
+        2 oz espresso, (2 shots), or strong brewed coffee
+    </string>
+    <string name="arecipe">
+        Add 2 scoops of ice cream to a serving bowl or glass.
+        Add chocolate shavings or other toppings if desired.
+        Pour 2 shots of hot espresso or strong brewed coffee over the ice cream and serve right away.
+        Enjoy!
+    </string>
+
+
+    <!--York Peppermint Pattie-Inspired Latte-->
+    <string name="yppilname">York Peppermint Pattie-Inspired Latte</string>
+    <string name="yppilingredients">
+        4 oz brewed espresso(115 mL)
+        1 cup whole milk(240 mL)
+        ¼ teaspoon peppermint extract
+        1 tablespoon Vanilla Simple Syrup
+        chocolate syrup, for topping
+        chocolate shaving, for topping
+        1 sprig of fresh mint, for garnish
+        Special Equipment
+        espresso machine
+        milk frother
+    </string>
+    <string name="yppilrecipe">
+        Add the espresso to a 12-ounce mug.
+        In a milk frother, combine the milk peppermint extract, and vanilla simple syrup and froth. Pour into the mug with the espresso.
+        Top with chocolate syrup, chocolate shavings, and the mint sprig.
+        Serve immediately.
+        Enjoy!
+    </string>
+
+
+    <!--Creamy Gourmet Hot Chocolate-->
+    <string name="cghcname">Creamy Gourmet Hot Chocolate</string>
+    <string name="cghcingredients">
+        1 ½ cups whole milk(360 mL)
+        ½ cup heavy cream(120 mL)
+        2 tablespoons powdered sugar, or to taste
+        ½ teaspoon espresso powder
+        8 oz 72% dark chocolate(225 g)
+        whipped cream, for serving
+    </string>
+    <string name="cghcrecipe">
+        In a 1.5-quart saucepan over medium heat, whisk together whole milk, heavy cream, powdered sugar, and espresso powder until hot.
+        Small bubbles will appear around the edges and the mixture may start to steam. Do not allow the mixture to boil.
+        Turn heat to low and stir in chopped chocolate until melted completely.
+        Serve warm, topped with whipped cream.
+        Enjoy!
+    </string>
+
+
+    <!--Irish Coffee Milkshake-->
+    <string name="icmname">Irish Coffee Milkshake</string>
+    <string name="icmingradients">
+        1 tablespoon coffee bean
+        2 fl oz whiskey(60 mL)
+        2 cups coffee ice cream(265 g)
+        whipped cream, for topping
+    </string>
+    <string name="icmrecipe">
+        Combine the coffee beans, whiskey, and coffee ice cream in a blender. Blend until smooth.
+        Top with whipped cream and a cherry.
+        Enjoy!
+    </string>
+
+
 
 
 </resources>
