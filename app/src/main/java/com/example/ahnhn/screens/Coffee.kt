@@ -29,6 +29,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.InspectableModifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
@@ -148,18 +149,24 @@ fun coffeeMoreColumn(item: coffeeMore) {
                 .fillMaxHeight()
                 .padding(vertical = 5.dp)
                 .padding(horizontal = 15.dp),
-            horizontalArrangement = Arrangement.SpaceAround
+            horizontalArrangement = Arrangement.Absolute.SpaceAround
         ) {
 
-            Text(
-                text = stringResource(item.name),
-                fontSize = 20.sp,
-                fontFamily = shadows,
-                color = two,
+            Column(
                 modifier = Modifier
-                    .align(Alignment.CenterVertically),
-                softWrap = true
-            )
+                    .align(Alignment.CenterVertically)
+                    .weight(60F, true)
+            ) {
+                Text(
+                    text = stringResource(item.name),
+                    fontSize = 20.sp,
+                    fontFamily = shadows,
+                    color = two,
+                    modifier = Modifier,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis
+                )
+            }
 
             Image(
                 painter = painterResource(item.picture),
@@ -173,6 +180,7 @@ fun coffeeMoreColumn(item: coffeeMore) {
                 },
                 modifier = Modifier
                     .align(Alignment.CenterVertically)
+                    .padding(end = 10.dp)
             ) {
                 Text(
                     text = "more...",
