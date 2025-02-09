@@ -53,6 +53,86 @@
         Strain the coffee and serve immediately.
         Enjoy!
     </string>
+    
+    <!-- Honey Almond Milk Flat White -->
+    <string name="hamfwname">Honey Almond Milk Flat White</string>
+    <string name="hamfwingredients">
+        1 shot espresso or strongly brewed coffee
+        2 teaspoons honey
+        ½ cup almond milk
+        Cinnamon for garnish
+    </string>
+    <string name="hamfwrecipe">
+        Add the espresso and honey to your desired mug and stir to combine.
+        Froth the almond milk. See recipe notes for various frothing methods.
+        Pour frothed almond milk over the espresso, garnish with a pinch of cinnamon, and serve immediately.
+    </string>
+
+    <!--Pumpkin Spice Coffee-->
+    <string name="psname">Pumpkin Spice Coffee</string>
+    <string name="psingredients">
+        1 cup brewed coffee(240 mL)
+        1 cup almond milk(240 mL)
+        2 tablespoons pumpkin puree
+        2 tablespoons maple syrup, or sweetener of choice
+        ¼ teaspoon vanilla extract
+        ½ teaspoon pumpkin pie spice, or ¼ teaspoon cinnamon plus ¼ teaspoon nutmeg
+        whipped cream, optional
+    </string>
+    <string name="psrecipe">
+        Combine all ingredients in a medium sauce pot and heat through, making sure not to boil, stirring occasionally.
+        Serve hot, or over ice!
+        Top with whipped cream (optional).
+        Enjoy!
+    </string>
+
+    <!--Whipped Coffee-->
+    <string name="wcname">Whipped Coffee</string>
+    <string name="wcingredients">
+        2 tablespoons hot water(28 g)
+        2 tablespoons sugar(24 g)
+        2 tablespoons instant coffee powder(12 g)
+        milk, to serve
+        ice, to serve
+    </string>
+    <string name="wcrecipe">
+        Add the hot water, sugar, and instant coffee to a bowl.
+        Either hand whisk or use an electric mixer until the mixture is fluffy and light.
+        To serve, spoon a dollop over a cup of milk with ice in it and stir.
+        Enjoy!
+    </string>
+
+    <!--Cold Brew With Sweet And Salty Foam-->
+    <string name="cbwsasfname">Cold Brew With Sweet And Salty Foam</string>
+    <string name="cbwsasfingredients">
+        Cold Brew:
+        6 cups water(1.4 L), plus more as needed
+        2 cups coffee grounds(220 g)
+
+        Caramel Simple Syrup:
+        ½ cup granulated sugar(100 g)
+        ¼ cup water(60 mL), plus 2 tablespoons, divided
+
+        Sweet Salty Cold Foam:
+        ½ cup whole milk(120 mL)
+        ½ cup heavy cream(120 mL)
+        2 tablespoons granulated sugar
+        ¼ teaspoon salt
+        ice, for serving
+    </string>
+    <string name="cbwsasfrecipe">
+        Make the cold brew: Combine the water and coffee grounds in a large container. Stir until all of the grounds are wet. Cover and refrigerate overnight.
+        Make the caramel simple syrup: Add the sugar and 2 tablespoons water to a small saucepan over medium-low heat. Cook until the sugar is completely dissolved, about 3 minutes. Increase the heat to medium and cook, without disturbing for about 5 minutes, until the mixture is caramel-colored.
+        Remove the pot from the heat. Carefully pour in the remaining ¼ cup (60 ml) water and stir to incorporate. Transfer the syrup to a heat-proof container, cover, and refrigerate until ready to use.
+        Line a fine-mesh sieve with a coffee filter and set over a large bowl. Pour the cold brew through the strainer and let drain. You may need to pour in batches so the strainer does not overflow. Return the strained cold brew to a clean container. If the coffee is too strong, dilute with more water to taste. Refrigerate the cold brew until ready to use.
+        Make the cold foam: In a medium bowl, combine the milk, cream, sugar, and salt. Whip with an immersion blender or electric hand mixer on high speed until foamy, 2–4 minutes.
+        To assemble, fill 2 large glasses with ice. Pour 1 cup (240 ml) cold brew coffee into each glass. Stir about 2 tablespoons of the caramel syrup into each glass. Top with the cold foam. Serve immediately.
+        Enjoy!
+    </string>
+
+
+
+
 
 
 
