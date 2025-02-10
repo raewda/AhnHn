@@ -21,6 +21,7 @@ class MainActivity : ComponentActivity() {
                 val navController = rememberNavController()
                 val start = remember { mutableStateOf(false) }
                 val coffee = remember { mutableStateOf(false) }
+                val recipes = remember { mutableStateOf(false) }
                 NavHost(
                     navController = navController,
                     startDestination = "start"
@@ -32,6 +33,10 @@ class MainActivity : ComponentActivity() {
                     composable("start"){
                         MyMood(navController,
                             start = start)
+                    }
+                    composable("recipes"){
+                        Recipe(navController,
+                            recipes = recipes)
                     }
                 }
             }
