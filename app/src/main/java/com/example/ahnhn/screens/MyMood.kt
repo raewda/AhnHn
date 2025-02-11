@@ -1,5 +1,7 @@
 package com.example.ahnhn.screens
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -19,17 +21,30 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
-import com.example.ahnhn.R
+import com.example.ahnhn.dcl.coffeeMore
+import com.example.ahnhn.dcl.coffeeMore.a.id
+import com.example.ahnhn.dcl.coffeeMore.a.ingredients
+import com.example.ahnhn.dcl.coffeeMore.a.name
+import com.example.ahnhn.dcl.coffeeMore.a.picture
+import com.example.ahnhn.dcl.coffeeMore.a.randomCoffee
+import com.example.ahnhn.dcl.coffeeMore.a.recipe
 import com.example.ahnhn.ui.theme.five
 import com.example.ahnhn.ui.theme.four
 import com.example.ahnhn.ui.theme.one
@@ -37,12 +52,16 @@ import com.example.ahnhn.ui.theme.shadows
 import com.example.ahnhn.ui.theme.three
 import com.example.ahnhn.ui.theme.two
 import com.example.ahnhn.viewm.MyMoodViewModel
+import kotlinx.coroutines.delay
+import java.time.LocalDateTime
+import java.time.temporal.ChronoUnit
 
+@RequiresApi(Build.VERSION_CODES.O)
 @Composable
 fun MyMood(
     navController: NavHostController,
     start: MutableState<Boolean>,
-    viewModel : MyMoodViewModel = MyMoodViewModel()
+    viewModel: MyMoodViewModel = MyMoodViewModel(),
 ) {
     val signs = listOf(
         "aries",
@@ -65,6 +84,23 @@ fun MyMood(
     val horoscopeData = viewModel.horoscopeData.collectAsState()
 
     val scrollState = rememberScrollState()
+
+    var date by remember { mutableStateOf({ LocalDateTime.now() }) }
+    var lastUpdated by remember { mutableStateOf(LocalDateTime.now()) }
+
+    var cofrecipe : coffeeMore = coffeeMore.a
+
+    LaunchedEffect(Unit) {
+        while (true) {
+            val now = LocalDateTime.now()
+            if (ChronoUnit.DAYS.between(lastUpdated, now) >= 1) {
+                date = { now }
+                lastUpdated = now
+                cofrecipe = randomCoffee()
+            }
+            delay(3600000)
+        }
+    }
 
     Scaffold(
         modifier = Modifier
@@ -116,7 +152,7 @@ fun MyMood(
             modifier = Modifier
                 .padding(innerPadding)
                 .fillMaxSize()
-                .verticalScroll(scrollState,true, null, false),
+                .verticalScroll(scrollState, true, null, false),
             horizontalAlignment = Alignment.Start
         ) {
 
@@ -133,89 +169,105 @@ fun MyMood(
                 "Sweat day",
                 fontSize = 44.sp,
                 fontFamily = shadows,
-                color = three,
+                color = four,
                 modifier = Modifier
                     .padding(horizontal = 10.dp)
             )
 
             Column(
+                modifier = Modifier
+                    .padding(bottom = 10.dp)
 
             ) {
-                Text(
-                    "Jopa",
-                    fontSize = 44.sp,
-                    fontFamily = shadows,
-                    color = three,
-                    modifier = Modifier
-                        .padding(horizontal = 10.dp)
-                )
 
-                Column(
+                CoffeeMoreRandom(cofrecipe)
+
+                LazyRow(
                     modifier = Modifier
-                        .fillMaxWidth(),
-                    horizontalAlignment = Alignment.CenterHorizontally
                 ) {
-                    Image(
-                        painter = painterResource(R.drawable.aimage),
-                        contentDescription = "image",
+                    items(signs) { item ->
+                        Button(
+                            onClick = {
+                                // передаём стейт зз
+                                viewModel.horoscopeGive(item)
+                            },
+                            modifier = Modifier
+                                .padding(horizontal = 2.dp),
+                            colors = ButtonDefaults.buttonColors(one)
+                        ) {
+                            Text(
+                                text = item,
+                                fontSize = 20.sp,
+                                fontFamily = shadows,
+                                color = four
+                            )
+                        }
+                    }
+
+                }
+
+                Column {
+                    Text(
+                        text = horoscopeData.value.data?.horoscopeData ?: "",
                         modifier = Modifier
-                            .size(300.dp)
+                            .padding(horizontal = 10.dp)
+                            .padding(vertical = 10.dp),
+                        fontSize = 24.sp,
+                        fontFamily = shadows,
+                        color = four
                     )
                 }
-
-                Text(
-                    text = "ingredients",
-                    modifier = Modifier
-                        .padding(horizontal = 10.dp),
-                    fontSize = 24.sp,
-                    fontFamily = shadows,
-                    color = four
-                )
-
-                Text(
-                    text = "recipe",
-                    modifier = Modifier
-                        .padding(horizontal = 10.dp),
-                    fontSize = 24.sp,
-                    fontFamily = shadows,
-                    color = three
-                )
-            }
-
-            LazyRow(
-                modifier = Modifier
-            ) {
-                items(signs) { item ->
-                    Button(
-                        onClick = {
-                            // передаём стейт зз
-                            viewModel.horoscopeGive(item)
-                        },
-                        modifier = Modifier
-                            .padding(horizontal = 2.dp),
-                        colors = ButtonDefaults.buttonColors(one)
-                    ) {
-                        Text(
-                            text = item,
-                            fontSize = 20.sp,
-                            fontFamily = shadows,
-                            color = four
-                        )
-                    }
-                }
-
-            }
-
-            Column {
-                Text(
-                    text = horoscopeData.value.data?.horoscopeData?:"",
-                    modifier = Modifier
-                        .padding(horizontal = 10.dp),
-                    fontSize = 24.sp,
-                    fontFamily = shadows,
-                    color = four
-                )
             }
         }
     }
+}
+
+@Composable
+fun CoffeeMoreRandom(
+    cofrecipe: coffeeMore,
+) {
+    Text(
+        text = stringResource(cofrecipe.name),
+        fontSize = 40.sp,
+        fontFamily = shadows,
+        color = three,
+        modifier = Modifier
+            .padding(horizontal = 10.dp)
+            .fillMaxWidth(),
+        lineHeight = 50.sp,
+        textAlign = TextAlign.Center
+    )
+
+    Column(
+        modifier = Modifier
+            .fillMaxWidth(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Image(
+            painter = painterResource(cofrecipe.picture),
+            contentDescription = "image",
+            modifier = Modifier
+                .size(300.dp)
+        )
+    }
+
+    Text(
+        text = stringResource(cofrecipe.ingredients),
+        modifier = Modifier
+            .padding(horizontal = 10.dp),
+        fontSize = 24.sp,
+        fontFamily = shadows,
+        color = four,
+
+    )
+
+    Text(
+        text = stringResource(cofrecipe.recipe),
+        modifier = Modifier
+            .padding(horizontal = 10.dp)
+            .padding(bottom = 15.dp),
+        fontSize = 24.sp,
+        fontFamily = shadows,
+        color = three
+    )
 }

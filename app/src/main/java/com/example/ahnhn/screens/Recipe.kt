@@ -20,6 +20,27 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import com.example.ahnhn.R
+import com.example.ahnhn.dcl.coffeeMore
+import com.example.ahnhn.dcl.coffeeMore.a
+import com.example.ahnhn.dcl.coffeeMore.acbs
+import com.example.ahnhn.dcl.coffeeMore.cbwsasf
+import com.example.ahnhn.dcl.coffeeMore.cclatte
+import com.example.ahnhn.dcl.coffeeMore.cghc
+import com.example.ahnhn.dcl.coffeeMore.fic
+import com.example.ahnhn.dcl.coffeeMore.hamfw
+import com.example.ahnhn.dcl.coffeeMore.icm
+import com.example.ahnhn.dcl.coffeeMore.jccs
+import com.example.ahnhn.dcl.coffeeMore.mbd
+import com.example.ahnhn.dcl.coffeeMore.mimm
+import com.example.ahnhn.dcl.coffeeMore.pbem
+import com.example.ahnhn.dcl.coffeeMore.pc
+import com.example.ahnhn.dcl.coffeeMore.ps
+import com.example.ahnhn.dcl.coffeeMore.sc
+import com.example.ahnhn.dcl.coffeeMore.sil
+import com.example.ahnhn.dcl.coffeeMore.tfc
+import com.example.ahnhn.dcl.coffeeMore.vc
+import com.example.ahnhn.dcl.coffeeMore.wc
+import com.example.ahnhn.dcl.coffeeMore.yppil
 import com.example.ahnhn.ui.theme.five
 import com.example.ahnhn.ui.theme.four
 import com.example.ahnhn.ui.theme.one
@@ -31,6 +52,9 @@ fun Recipe(
     navController: NavHostController,
     recipes: MutableState<Boolean>,
 ) {
+    val recipes = listOf(
+        sc, cclatte, pc, hamfw, ps, wc, cbwsasf, vc, sil, pbem, jccs, mimm, tfc, fic, mbd, acbs, a, yppil, cghc, icm
+    )
 
     val scrollState = rememberScrollState()
 

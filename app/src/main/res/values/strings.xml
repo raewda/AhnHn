@@ -3,379 +3,400 @@
 
     <!--Salted Coffee-->
     <string name="scname">Ca Phe Muoi</string>
-    <string name="scingredients">1 cup coffee, with milk and sugar if desired
-        6 tablespoons heavy cream
-        2 tablespoons sugar
-        ½ teaspoon kosher salt
-        ½ cup milk
-        2 tablespoons cocoa powder
-        ice
+    <string name="scingredients">
+        Ingredients:
+        \n1 cup coffee, with milk and sugar if desired
+        \n6 tablespoons heavy cream
+        \n2 tablespoons sugar
+        \n½ teaspoon kosher salt
+        \n½ cup milk
+        \n2 tablespoons cocoa powder
+        \nice
     </string>
     <string name="screcipe">
-        Chill coffee in the refrigerator until ready to use.
-        In a tall cup, add in the heavy cream, sugar, and salt. Whisk together with a mini whisk or electric frother until thick.
-        Fill a chilled glass with ice. Pour in the ⅓ cup of milk, the chilled brewed coffee, and top with as much salted cream as you’d like!
-        Dust with cocoa powder for garnish.
-        Enjoy!
+         Chill coffee in the refrigerator until ready to use.
+        \nIn a tall cup, add in the heavy cream, sugar, and salt. Whisk together with a mini whisk or electric frother until thick.
+        \nFill a chilled glass with ice. Pour in the ⅓ cup of milk, the chilled brewed coffee, and top with as much salted cream as you’d like!
+        \nDust with cocoa powder for garnish.
+        \nEnjoy!
     </string>
     
     
     <!--The Cracked Coffee Latte-->
     <string name="cclattename">The Cracked Coffee Latte</string>
     <string name="cclatteingredients">
-        1 cup milk of choice
-        2 shots espresso
-        1 tablespoon syrup or sweetener of choice
-        ⅓ cup dark or milk chocolate
-        ice cube
+        Ingredients:
+        \n1 cup milk of choice
+        \n2 shots espresso
+        \n1 tablespoon syrup or sweetener of choice
+        \n⅓ cup dark or milk chocolate
+        \nice cube
     </string>
     <string name="cclatterecipe">
-        Melt the chocolate in a microwave-safe bowl in 30-second increments, stirring in between each time until fully melted.
-        Pour the melted chocolate into a clear plastic cup, and coat the inside. Allow any excess to drip back into the bowl. Freeze the cup for about 10 minutes to set the chocolate.
-        Assemble the drink: Fill the chocolate-coated cup to the top with ice cubes. Then pour in the sweetener, followed by the milk and freshly brewed espresso.
-        Gently squeeze the cup to crack the chocolate mold, then give the drink a stir.
-        Enjoy!
+         Melt the chocolate in a microwave-safe bowl in 30-second increments, stirring in between each time until fully melted.
+        \nPour the melted chocolate into a clear plastic cup, and coat the inside. Allow any excess to drip back into the bowl. Freeze the cup for about 10 minutes to set the chocolate.
+        \nAssemble the drink: Fill the chocolate-coated cup to the top with ice cubes. Then pour in the sweetener, followed by the milk and freshly brewed espresso.
+        \nGently squeeze the cup to crack the chocolate mold, then give the drink a stir.
+        \nEnjoy!
     </string>
 
 
     <!--Pot Coffee-->
     <string name="pcname">Cafecito De Olla</string>
     <string name="pcingredients">
-        6 cups water(1.4 L)
-        ½ cup coffee grounds(60 g)
-        120 g piloncillo(120 g)
-        2 whole cinnamon sticks
-        2 whole star anise pods
-        5 whole cloves
+        Ingredients:
+        \n6 cups water(1.4 L)
+        \n½ cup coffee grounds(60 g)
+        \n120 g piloncillo(120 g)
+        \n2 whole cinnamon sticks
+        \n2 whole star anise pods
+        \n5 whole cloves
     </string>
     <string name="pcrecipe">
-        In a medium pot, bring the water to a simmer over medium-low heat. Add the coffee grounds and piloncillo and stir for 2 minutes to dissolve the piloncillo. Add the cinnamon sticks, star anise pods, and cloves, and stir for 1 minute. Cover the pot and let the coffee simmer for 10 minutes.
-        Strain the coffee and serve immediately.
-        Enjoy!
+         In a medium pot, bring the water to a simmer over medium-low heat. Add the coffee grounds and piloncillo and stir for 2 minutes to dissolve the piloncillo. Add the cinnamon sticks, star anise pods, and cloves, and stir for 1 minute. Cover the pot and let the coffee simmer for 10 minutes.
+        \nStrain the coffee and serve immediately.
+        \nEnjoy!
     </string>
     
     <!-- Honey Almond Milk Flat White -->
     <string name="hamfwname">Honey Almond Milk Flat White</string>
     <string name="hamfwingredients">
-        1 shot espresso or strongly brewed coffee
-        2 teaspoons honey
-        ½ cup almond milk
-        Cinnamon for garnish
+        Ingredients:
+        \n1 shot espresso or strongly brewed coffee
+        \n2 teaspoons honey
+        \n½ cup almond milk
+        \nCinnamon for garnish
     </string>
     <string name="hamfwrecipe">
-        Add the espresso and honey to your desired mug and stir to combine.
-        Froth the almond milk. See recipe notes for various frothing methods.
-        Pour frothed almond milk over the espresso, garnish with a pinch of cinnamon, and serve immediately.
-        Enjoy!
+         Add the espresso and honey to your desired mug and stir to combine.
+        \nFroth the almond milk. See recipe notes for various frothing methods.
+        \nPour frothed almond milk over the espresso, garnish with a pinch of cinnamon, and serve immediately.
+        \nEnjoy!
     </string>
 
     <!--Pumpkin Spice Coffee-->
     <string name="psname">Pumpkin Spice Coffee</string>
     <string name="psingredients">
-        1 cup brewed coffee(240 mL)
-        1 cup almond milk(240 mL)
-        2 tablespoons pumpkin puree
-        2 tablespoons maple syrup, or sweetener of choice
-        ¼ teaspoon vanilla extract
-        ½ teaspoon pumpkin pie spice, or ¼ teaspoon cinnamon plus ¼ teaspoon nutmeg
-        whipped cream, optional
+        Ingredients:
+        \n1 cup brewed coffee(240 mL)
+        \n1 cup almond milk(240 mL)
+        \n2 tablespoons pumpkin puree
+        \n2 tablespoons maple syrup, or sweetener of choice
+        \n¼ teaspoon vanilla extract
+        \n½ teaspoon pumpkin pie spice, or ¼ teaspoon cinnamon plus ¼ teaspoon nutmeg
+        \nwhipped cream, optional
     </string>
     <string name="psrecipe">
-        Combine all ingredients in a medium sauce pot and heat through, making sure not to boil, stirring occasionally.
-        Serve hot, or over ice!
-        Top with whipped cream (optional).
-        Enjoy!
+         Combine all ingredients in a medium sauce pot and heat through, making sure not to boil, stirring occasionally.
+        \nServe hot, or over ice!
+        \nTop with whipped cream (optional).
+        \nEnjoy!
     </string>
 
     <!--Whipped Coffee-->
     <string name="wcname">Whipped Coffee</string>
     <string name="wcingredients">
-        2 tablespoons hot water(28 g)
-        2 tablespoons sugar(24 g)
-        2 tablespoons instant coffee powder(12 g)
-        milk, to serve
-        ice, to serve
+        Ingredients:
+        \n2 tablespoons hot water(28 g)
+        \n2 tablespoons sugar(24 g)
+        \n2 tablespoons instant coffee powder(12 g)
+        \nmilk, to serve
+        \nice, to serve
     </string>
     <string name="wcrecipe">
-        Add the hot water, sugar, and instant coffee to a bowl.
-        Either hand whisk or use an electric mixer until the mixture is fluffy and light.
-        To serve, spoon a dollop over a cup of milk with ice in it and stir.
-        Enjoy!
+         Add the hot water, sugar, and instant coffee to a bowl.
+        \nEither hand whisk or use an electric mixer until the mixture is fluffy and light.
+        \nTo serve, spoon a dollop over a cup of milk with ice in it and stir.
+        \nEnjoy!
     </string>
 
     <!--Cold Brew With Sweet And Salty Foam-->
     <string name="cbwsasfname">Cold Brew With Sweet And Salty Foam</string>
     <string name="cbwsasfingredients">
-        Cold Brew:
-        6 cups water(1.4 L), plus more as needed
-        2 cups coffee grounds(220 g)
+        Ingredients:
+        \nCold Brew:
+        \n6 cups water(1.4 L), plus more as needed
+        \n2 cups coffee grounds(220 g)\n
 
-        Caramel Simple Syrup:
-        ½ cup granulated sugar(100 g)
-        ¼ cup water(60 mL), plus 2 tablespoons, divided
+        \nCaramel Simple Syrup:
+        \n½ cup granulated sugar(100 g)
+        \n¼ cup water(60 mL), plus 2 tablespoons, divided\n
 
-        Sweet Salty Cold Foam:
-        ½ cup whole milk(120 mL)
-        ½ cup heavy cream(120 mL)
-        2 tablespoons granulated sugar
-        ¼ teaspoon salt
-        ice, for serving
+        \nSweet Salty Cold Foam:
+        \n½ cup whole milk(120 mL)
+        \n½ cup heavy cream(120 mL)
+        \n2 tablespoons granulated sugar
+        \n¼ teaspoon salt
+        \nice, for serving
     </string>
     <string name="cbwsasfrecipe">
-        Make the cold brew: Combine the water and coffee grounds in a large container. Stir until all of the grounds are wet. Cover and refrigerate overnight.
-        Make the caramel simple syrup: Add the sugar and 2 tablespoons water to a small saucepan over medium-low heat. Cook until the sugar is completely dissolved, about 3 minutes. Increase the heat to medium and cook, without disturbing for about 5 minutes, until the mixture is caramel-colored.
-        Remove the pot from the heat. Carefully pour in the remaining ¼ cup (60 ml) water and stir to incorporate. Transfer the syrup to a heat-proof container, cover, and refrigerate until ready to use.
-        Line a fine-mesh sieve with a coffee filter and set over a large bowl. Pour the cold brew through the strainer and let drain. You may need to pour in batches so the strainer does not overflow. Return the strained cold brew to a clean container. If the coffee is too strong, dilute with more water to taste. Refrigerate the cold brew until ready to use.
-        Make the cold foam: In a medium bowl, combine the milk, cream, sugar, and salt. Whip with an immersion blender or electric hand mixer on high speed until foamy, 2–4 minutes.
-        To assemble, fill 2 large glasses with ice. Pour 1 cup (240 ml) cold brew coffee into each glass. Stir about 2 tablespoons of the caramel syrup into each glass. Top with the cold foam. Serve immediately.
-        Enjoy!
+         Make the cold brew: Combine the water and coffee grounds in a large container. Stir until all of the grounds are wet. Cover and refrigerate overnight.
+        \nMake the caramel simple syrup: Add the sugar and 2 tablespoons water to a small saucepan over medium-low heat. Cook until the sugar is completely dissolved, about 3 minutes. Increase the heat to medium and cook, without disturbing for about 5 minutes, until the mixture is caramel-colored.
+        \nRemove the pot from the heat. Carefully pour in the remaining ¼ cup (60 ml) water and stir to incorporate. Transfer the syrup to a heat-proof container, cover, and refrigerate until ready to use.
+        \nLine a fine-mesh sieve with a coffee filter and set over a large bowl. Pour the cold brew through the strainer and let drain. You may need to pour in batches so the strainer does not overflow. Return the strained cold brew to a clean container. If the coffee is too strong, dilute with more water to taste. Refrigerate the cold brew until ready to use.
+        \nMake the cold foam: In a medium bowl, combine the milk, cream, sugar, and salt. Whip with an immersion blender or electric hand mixer on high speed until foamy, 2–4 minutes.
+        \nTo assemble, fill 2 large glasses with ice. Pour 1 cup (240 ml) cold brew coffee into each glass. Stir about 2 tablespoons of the caramel syrup into each glass. Top with the cold foam. Serve immediately.
+        \nEnjoy!
     </string>
 
 
     <!--Vietnamese Coffee-->
     <string name="vcname">Vietnamese Coffee</string>
     <string name="vcingredients">
-        1 tablespoon ground chicory coffee
-        2 tablespoons sweetened condensed milk
-        1 cup hot water(240 mL)
+        Ingredients:
+        \n1 tablespoon ground chicory coffee
+        \n2 tablespoons sweetened condensed milk
+        \n1 cup hot water(240 mL)
     </string>
     <string name="vcrecipe">
-        Pour the ground coffee into a Vietnamese phin filter base. Place the phin filter strainer on top of the coffee.
-        Pour the sweetened condensed milk into a glass.
-        Place the phin assembly on top of the glass. Pour hot water into the phin filter. Place the phin filter lid on top and let the coffee drip through the filter into the glass.
-        Stir well before serving.
-        Enjoy!
+         Pour the ground coffee into a Vietnamese phin filter base. Place the phin filter strainer on top of the coffee.
+        \nPour the sweetened condensed milk into a glass.
+        \nPlace the phin assembly on top of the glass. Pour hot water into the phin filter. Place the phin filter lid on top and let the coffee drip through the filter into the glass.
+        \nStir well before serving.
+        \nEnjoy!
     </string>
 
 
     <!--Snickers-Inspired Latte-->
     <string name="silname">Snickers-Inspired Latte</string>
     <string name="silingredients">
-        1 cup skim milk(240 mL)
-        1 cup sugar(200 g)
-        ½ cup creamy peanut butter(120 g)
-        1 teaspoon vanilla extract
-        ⅛ teaspoon kosher salt
-        1 cup whole milk(240 mL), frothed
-        4 oz brewed espresso(115 mL)
-        whipped cream, for topping
-        caramel syrup, for topping
-        chocolate syrup, for topping
-        crushed peanut, for topping
-        crushed nougat, for topping
+        Ingredients:
+        \n1 cup skim milk(240 mL)
+        \n1 cup sugar(200 g)
+        \n½ cup creamy peanut butter(120 g)
+        \n1 teaspoon vanilla extract
+        \n⅛ teaspoon kosher salt
+        \n1 cup whole milk(240 mL), frothed
+        \n4 oz brewed espresso(115 mL)
+        \nwhipped cream, for topping
+        \ncaramel syrup, for topping
+        \nchocolate syrup, for topping
+        \ncrushed peanut, for topping
+        \ncrushed nougat, for topping
     </string>
     <string name="silrecipe">
-        In a small saucepan over medium heat, whisk together the skim milk, sugar, peanut butter, and vanilla. Bring to a low simmer, whisking constantly, until the sugar has dissolved and the syrup is smooth and thick, 3–5 minutes. Add the salt, then remove the pot from the heat and let the syrup cool for 10–15 minutes, until thickened slightly. Leftover syrup will keep in an airtight container the refrigerator for up to 1 month.
-        Drizzle the peanut butter syrup around the inside rim of a large mug. Add the espresso and frothed whole milk. Top with whipped cream, caramel syrup, chocolate syrup, crushed peanuts, and crushed nougat.
-        Serve immediately.
-        Enjoy!
+         In a small saucepan over medium heat, whisk together the skim milk, sugar, peanut butter, and vanilla. Bring to a low simmer, whisking constantly, until the sugar has dissolved and the syrup is smooth and thick, 3–5 minutes. Add the salt, then remove the pot from the heat and let the syrup cool for 10–15 minutes, until thickened slightly. Leftover syrup will keep in an airtight container the refrigerator for up to 1 month.
+        \nDrizzle the peanut butter syrup around the inside rim of a large mug. Add the espresso and frothed whole milk. Top with whipped cream, caramel syrup, chocolate syrup, crushed peanuts, and crushed nougat.
+        \nServe immediately.
+        \nEnjoy!
     </string>
 
 
     <!--Peanut Butter Espresso Martini-->
     <string name="pbemname">Peanut Butter Espresso Martini</string>
     <string name="pbemingredients">
-        1 teaspoon creamy peanut butter
-        1 cup ice
-        1 ½ oz Skrewball® Peanut Butter Whiskey
-        ½ oz coffee liqueur
-        1 ½ oz freshly brewed espresso
-        3 espresso beans, for garnish
-        smoked sea salt, for garnish
+        Ingredients:
+        \n1 teaspoon creamy peanut butter
+        \n1 cup ice
+        \n1 ½ oz Skrewball® Peanut Butter Whiskey
+        \n½ oz coffee liqueur
+        \n1 ½ oz freshly brewed espresso
+        \n3 espresso beans, for garnish
+        \nsmoked sea salt, for garnish
     </string>
     <string name="pbemrecipe">
-        Warm the peanut butter until it is loose enough to drizzle, then drizzle around the inside of a martini or coupe glass.
-        In a cocktail shaker filled with ice, combine the Skrewball® Peanut Butter Whiskey, coffee liqueur, and espresso and shake vigorously for 1 minute.
-        Strain the cocktail into the martini glass. Place the espresso beans in the center and finish with a pinch of smoked sea salt.
-        Enjoy!
+         Warm the peanut butter until it is loose enough to drizzle, then drizzle around the inside of a martini or coupe glass.
+        \nIn a cocktail shaker filled with ice, combine the Skrewball® Peanut Butter Whiskey, coffee liqueur, and espresso and shake vigorously for 1 minute.
+        \nStrain the cocktail into the martini glass. Place the espresso beans in the center and finish with a pinch of smoked sea salt.
+        \nEnjoy!
     </string>
 
 
     <!--Java Chip Caffeinated Smoothie-->
     <string name="jccsname">Java Chip Caffeinated Smoothie</string>
     <string name="jccsingredients">
-        1 ½ cups coffee(360 mL), brewed, cooled
-        ½ cup half and half(120 mL)
-        ⅓ cup chocolate chips(60 g), plus more, crushed for topping
-        2 tablespoons sugar
-        6 coffee beans
-        whipped cream, for topping
+        Ingredients:
+        \n1 ½ cups coffee(360 mL), brewed, cooled
+        \n½ cup half and half(120 mL)
+        \n⅓ cup chocolate chips(60 g), plus more, crushed for topping
+        \n2 tablespoons sugar
+        \n6 coffee beans
+        \nwhipped cream, for topping
     </string>
     <string name="jccsrecipe">
-        Pour the coffee into an ice cube tray. Freeze for at least 4 hours, or overnight.
-        Add the coffee ice cubes, half and half, chocolate chips, sugar, and coffee beans to a blender. Blend until smooth.
-        Pour into glasses and top with whipped cream and crushed chocolate chips.
-        Enjoy!
+         Pour the coffee into an ice cube tray. Freeze for at least 4 hours, or overnight.
+        \nAdd the coffee ice cubes, half and half, chocolate chips, sugar, and coffee beans to a blender. Blend until smooth.
+        \nPour into glasses and top with whipped cream and crushed chocolate chips.
+        \nEnjoy!
     </string>
 
 
     <!--3 Musketeers-Inspired Marshmallow Macchiato-->
     <string name="mimmname">3 Musketeers-Inspired Marshmallow Macchiato</string>
     <string name="mimmingredients">
-        1 cup whole milk(240 mL)
-        8 marshmallows
-        4 oz brewed espresso(110 mL)
-        Chocolate whipped cream, for topping
-        chocolate syrup, for topping
-        Red and Blue Sprinkle
-        Special Equipment, Espresso Machine
+        Ingredients:
+        \n1 cup whole milk(240 mL)
+        \n8 marshmallows
+        \n4 oz brewed espresso(110 mL)
+        \nChocolate whipped cream, for topping
+        \nchocolate syrup, for topping
+        \nRed and Blue Sprinkle
+        \nSpecial Equipment, Espresso Machine
     </string>
     <string name="mimmrecipe">
-        In a small saucepan over medium heat, combine the milk and marshmallows and bring to a low simmer, stirring until the marshmallows melt, 3–5 minutes.
-        Pour the milk mixture into a large mug, along with the espresso.
-        Top with chocolate whipped cream, chocolate syrup, and red and blue sprinkles.
-        Serve immediately.
-        Enjoy!
+         In a small saucepan over medium heat, combine the milk and marshmallows and bring to a low simmer, stirring until the marshmallows melt, 3–5 minutes.
+        \nPour the milk mixture into a large mug, along with the espresso.
+        \nTop with chocolate whipped cream, chocolate syrup, and red and blue sprinkles.
+        \nServe immediately.
+        \nEnjoy!
     </string>
 
 
     <!--Twix Frappuccino Copycat-->
     <string name="tfcname">Twix Frappuccino Copycat</string>
     <string name="tfcingredients">
-        2 tablespoons simple syrup
-        1 tablespoon toffee syrup
-        2 tablespoons caramel syrup, plus more for serving
-        1 tablespoon hazelnut syrup
-        2 oz espresso(60 mL)
-        ¾ cup whole milk(180 mL)
-        1 tablespoon chocolate chips
-        1 ½ cups ice(210 g)
-        1 tablespoon whipped cream, plus more for topping
-        chocolate syrup, for serving
+        Ingredients:
+        \n2 tablespoons simple syrup
+        \n1 tablespoon toffee syrup
+        \n2 tablespoons caramel syrup, plus more for serving
+        \n1 tablespoon hazelnut syrup
+        \n2 oz espresso(60 mL)
+        \n¾ cup whole milk(180 mL)
+        \n1 tablespoon chocolate chips
+        \n1 ½ cups ice(210 g)
+        \n1 tablespoon whipped cream, plus more for topping
+        \nchocolate syrup, for serving
     </string>
     <string name="tfcrecipe">
-        In a blender, combine the simple syrup, toffee syrup, caramel syrup, hazelnut syrup, espresso, milk, chocolate chips, ice, and 1 tablespoon whipped cream. Blend until smooth.
-        Drizzle caramel syrup and chocolate syrup down the sides of a 20-ounce glass. Pour in the Frappuccino. Top with whipped cream and more caramel and chocolate syrup.
-        Enjoy!
+         In a blender, combine the simple syrup, toffee syrup, caramel syrup, hazelnut syrup, espresso, milk, chocolate chips, ice, and 1 tablespoon whipped cream. Blend until smooth.
+        \nDrizzle caramel syrup and chocolate syrup down the sides of a 20-ounce glass. Pour in the Frappuccino. Top with whipped cream and more caramel and chocolate syrup.
+        \nEnjoy!
     </string>
 
 
     <!--Frozen Irish Coffee-->
     <string name="ficname">Frozen Irish Coffee</string>
     <string name="ficingredients">
-        2 cups strong black coffee(470 g), cooled
-        1 ½ cups sweetened cream(355 mL)
-        3 oz irish whiskey(90 mL)
-        1 bar chocolate, melted
+        Ingredients:
+        \n2 cups strong black coffee(470 g), cooled
+        \n1 ½ cups sweetened cream(355 mL)
+        \n3 oz irish whiskey(90 mL)
+        \n1 bar chocolate, melted
     </string>
     <string name="ficrecipe">
-        Pour coffee into ice molds and freeze.
-        Pour sweetened cream into ice molds and freeze.
-        Whip the remaining sweetened cream and set aside.
-        Take 4 cubes of frozen coffee and place in a blender, add 1.5 oz whiskey and blend until foamy.
-        Add 2 cubes of frozen sweetened cream and 1 tablespoon of chocolate, blend.
-        Top with whip cream and drizzle with more chocolate.
-        Enjoy!
+         Pour coffee into ice molds and freeze.
+        \nPour sweetened cream into ice molds and freeze.
+        \nWhip the remaining sweetened cream and set aside.
+        \nTake 4 cubes of frozen coffee and place in a blender, add 1.5 oz whiskey and blend until foamy.
+        \nAdd 2 cubes of frozen sweetened cream and 1 tablespoon of chocolate, blend.
+        \nTop with whip cream and drizzle with more chocolate.
+        \nEnjoy!
     </string>
 
 
     <!--Mocha Blended Drink-->
     <string name="mbdname">Mocha Blended Drink</string>
     <string name="mbdingredients">
-        ½ cup almond milk(120 mL), or milk of choice
-        ½ cup coffee(120 mL), cold
-        1 ½ tablespoons dark cocoa powder
-        1 banana, frozen
-        1 cup ice(140 g)
+        Ingredients:
+        \n½ cup almond milk(120 mL), or milk of choice
+        \n½ cup coffee(120 mL), cold
+        \n1 ½ tablespoons dark cocoa powder
+        \n1 banana, frozen
+        \n1 cup ice(140 g)\n
 
-        Garnish (Optional)
-        whipped cream
-        dark cocoa powder
+        \nGarnish (Optional):
+        \nwhipped cream
+        \ndark cocoa powder
     </string>
     <string name="mbdrecipe">
-        Put all ingredients into a blender and mix until smooth.
-        Serve in a glass and garnish with toppings (optional).
-        Enjoy!
+         Put all ingredients into a blender and mix until smooth.
+        \nServe in a glass and garnish with toppings (optional).
+        \nEnjoy!
     </string>
 
 
     <!--Avocado Cold Brew Smoothie-->
     <string name="acbsname">Avocado Cold Brew Smoothie</string>
     <string name="acbsingredients">
-        ½ cup cold brew coffee(120 mL)
-        ½ avocado, chopped
-        1 tablespoon vanilla extract
-        1 cup coconut milk(240 mL)
-        ½ cup vanilla yogurt(120 g)
-        2 cups ice(280 g)
-        coconut flake, for serving
+        Ingredients:
+        \n½ cup cold brew coffee(120 mL)
+        \n½ avocado, chopped
+        \n1 tablespoon vanilla extract
+        \n1 cup coconut milk(240 mL)
+        \n½ cup vanilla yogurt(120 g)
+        \n2 cups ice(280 g)
+        \ncoconut flake, for serving
     </string>
     <string name="acbsrecipe">
-        Add the cold brew coffee, avocado, vanilla, coconut milk, yogurt, and ice to a blender.
-        Blend until smooth.
-        Serve in a glass and top with coconut flakes.
-        Enjoy!
+         Add the cold brew coffee, avocado, vanilla, coconut milk, yogurt, and ice to a blender.
+        \nBlend until smooth.
+        \nServe in a glass and top with coconut flakes.
+        \nEnjoy!
     </string>
 
 
     <!--Affogato-->
     <string name="aname">Affogato</string>
     <string name="aingredients">
-        2 scoops vanilla ice cream, (or vanilla gelato)
-        2 oz espresso, (2 shots), or strong brewed coffee
+        Ingredients:
+        \n2 scoops vanilla ice cream, (or vanilla gelato)
+        \n2 oz espresso, (2 shots), or strong brewed coffee
     </string>
     <string name="arecipe">
-        Add 2 scoops of ice cream to a serving bowl or glass.
-        Add chocolate shavings or other toppings if desired.
-        Pour 2 shots of hot espresso or strong brewed coffee over the ice cream and serve right away.
-        Enjoy!
+         Add 2 scoops of ice cream to a serving bowl or glass.
+        \nAdd chocolate shavings or other toppings if desired.
+        \nPour 2 shots of hot espresso or strong brewed coffee over the ice cream and serve right away.
+        \nEnjoy!
     </string>
 
 
     <!--York Peppermint Pattie-Inspired Latte-->
     <string name="yppilname">York Peppermint Pattie-Inspired Latte</string>
     <string name="yppilingredients">
-        4 oz brewed espresso(115 mL)
-        1 cup whole milk(240 mL)
-        ¼ teaspoon peppermint extract
-        1 tablespoon Vanilla Simple Syrup
-        chocolate syrup, for topping
-        chocolate shaving, for topping
-        1 sprig of fresh mint, for garnish
-        Special Equipment
-        espresso machine
-        milk frother
+        Ingredients:
+        \n4 oz brewed espresso(115 mL)
+        \n1 cup whole milk(240 mL)
+        \n¼ teaspoon peppermint extract
+        \n1 tablespoon Vanilla Simple Syrup
+        \nchocolate syrup, for topping
+        \nchocolate shaving, for topping
+        \n1 sprig of fresh mint, for garnish
+        \nSpecial Equipment
+        \nespresso machine
+        \nmilk frother
     </string>
     <string name="yppilrecipe">
-        Add the espresso to a 12-ounce mug.
-        In a milk frother, combine the milk peppermint extract, and vanilla simple syrup and froth. Pour into the mug with the espresso.
-        Top with chocolate syrup, chocolate shavings, and the mint sprig.
-        Serve immediately.
-        Enjoy!
+         Add the espresso to a 12-ounce mug.
+        \nIn a milk frother, combine the milk peppermint extract, and vanilla simple syrup and froth. Pour into the mug with the espresso.
+        \nTop with chocolate syrup, chocolate shavings, and the mint sprig.
+        \nServe immediately.
+        \nEnjoy!
     </string>
 
 
     <!--Creamy Gourmet Hot Chocolate-->
     <string name="cghcname">Creamy Gourmet Hot Chocolate</string>
     <string name="cghcingredients">
-        1 ½ cups whole milk(360 mL)
-        ½ cup heavy cream(120 mL)
-        2 tablespoons powdered sugar, or to taste
-        ½ teaspoon espresso powder
-        8 oz 72% dark chocolate(225 g)
-        whipped cream, for serving
+        Ingredients:
+        \n1 ½ cups whole milk(360 mL)
+        \n½ cup heavy cream(120 mL)
+        \n2 tablespoons powdered sugar, or to taste
+        \n½ teaspoon espresso powder
+        \n8 oz 72% dark chocolate(225 g)
+        \nwhipped cream, for serving
     </string>
     <string name="cghcrecipe">
-        In a 1.5-quart saucepan over medium heat, whisk together whole milk, heavy cream, powdered sugar, and espresso powder until hot.
-        Small bubbles will appear around the edges and the mixture may start to steam. Do not allow the mixture to boil.
-        Turn heat to low and stir in chopped chocolate until melted completely.
-        Serve warm, topped with whipped cream.
-        Enjoy!
+         In a 1.5-quart saucepan over medium heat, whisk together whole milk, heavy cream, powdered sugar, and espresso powder until hot.
+        \nSmall bubbles will appear around the edges and the mixture may start to steam. Do not allow the mixture to boil.
+        \nTurn heat to low and stir in chopped chocolate until melted completely.
+        \nServe warm, topped with whipped cream.
+        \nEnjoy!
     </string>
 
 
     <!--Irish Coffee Milkshake-->
     <string name="icmname">Irish Coffee Milkshake</string>
     <string name="icmingradients">
-        1 tablespoon coffee bean
-        2 fl oz whiskey(60 mL)
-        2 cups coffee ice cream(265 g)
-        whipped cream, for topping
+        Ingredients:
+        \n1 tablespoon coffee bean
+        \n2 fl oz whiskey(60 mL)
+        \n2 cups coffee ice cream(265 g)
+        \nwhipped cream, for topping
     </string>
     <string name="icmrecipe">
-        Combine the coffee beans, whiskey, and coffee ice cream in a blender. Blend until smooth.
-        Top with whipped cream and a cherry.
-        Enjoy!
+         Combine the coffee beans, whiskey, and coffee ice cream in a blender. Blend until smooth.
+        \nTop with whipped cream and a cherry.
+        \nEnjoy!
     </string>
 
 

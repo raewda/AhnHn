@@ -9,6 +9,7 @@ import androidx.compose.runtime.remember
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+
 import com.example.ahnhn.ui.theme.AhnHnTheme
 
 
@@ -36,7 +37,8 @@ class MainActivity : ComponentActivity() {
                     }
                     composable("recipes"){
                         Recipe(navController,
-                            recipes = recipes)
+                            recipes = recipes
+                        )
                     }
                 }
             }
