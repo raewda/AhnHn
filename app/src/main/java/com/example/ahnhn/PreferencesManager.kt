@@ -11,7 +11,7 @@ constructor(
     private val sharedPreferences: SharedPreferences =
         context.getSharedPreferences("date", Context.MODE_PRIVATE)
 
-    // ключ-значение перезапишет, если есть. если нет - создаст
+    // ключ-значение перезапишет, если есть. если нет - создастsha
     fun saveString(
         key: String,
         value: String,

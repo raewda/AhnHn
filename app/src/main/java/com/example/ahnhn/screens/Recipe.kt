@@ -86,7 +86,7 @@ fun coffeeRecipe(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Image(
-            painter = painterResource(R.drawable.aimage),
+            painter = painterResource(item.picture),
             contentDescription = "image",
             modifier = Modifier
                 .size(300.dp)

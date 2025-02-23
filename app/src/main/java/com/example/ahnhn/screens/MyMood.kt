@@ -77,9 +77,9 @@ fun MyMood(
 
     val scrollState = rememberScrollState()
 
-    val cofrecipe = remember { mutableStateOf(coffeeMore.a as coffeeMore) }
-
     val colst = remember { mutableStateOf("") }
+
+    val cofrecipe = remember { mutableStateOf(coffeeMore.a as coffeeMore) }
 
     LaunchedEffect(Unit) {
         val savedDay = date.getString("day")
