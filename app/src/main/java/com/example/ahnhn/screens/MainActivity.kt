@@ -49,9 +49,10 @@ class MainActivity : ComponentActivity() {
                     composable("recipes/{id}", arguments = listOf(navArgument("id"){
                         NavType.StringType
                     })){
+                        val id = it.arguments?.getString("id")?.toInt()
                         Recipe(navController,
                             recipes = recipes,
-                            item = coffeeMore.getById(it.arguments?.getString("id")!!.toInt())
+                            item = coffeeMore.getById(id?:0)
                         )
                     }
                 }

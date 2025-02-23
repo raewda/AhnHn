@@ -20,7 +20,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
-import com.example.ahnhn.R
 import com.example.ahnhn.dcl.coffeeMore
 import com.example.ahnhn.ui.theme.five
 import com.example.ahnhn.ui.theme.four
@@ -44,7 +43,7 @@ fun Recipe(
         Column(
             modifier = Modifier
                 .padding(innerPadding)
-                .verticalScroll(scrollState,true, null, false)
+                .verticalScroll(scrollState, true, null, false)
         ) {
 
             TextButton(

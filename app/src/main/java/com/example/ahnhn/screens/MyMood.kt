@@ -79,7 +79,7 @@ fun MyMood(
 
     val colst = remember { mutableStateOf("") }
 
-    val cofrecipe = remember { mutableStateOf(coffeeMore.a as coffeeMore) }
+    val cofrecipe = remember { mutableStateOf(coffeeMore.sc) }
 
     LaunchedEffect(Unit) {
         val savedDay = date.getString("day")
