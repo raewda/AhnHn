@@ -44,10 +44,10 @@ open class coffeeMore(
             }
             return sc
         }
-    }
 
-    fun randomCoffee(): coffeeMore {
-        return coffeeMore.getById(Random.nextInt(0, coffeeMore.Count))
+        fun randomCoffee(): coffeeMore {
+            return coffeeMore.getById(Random.nextInt(0, coffeeMore.Count))
+        }
     }
 
 }

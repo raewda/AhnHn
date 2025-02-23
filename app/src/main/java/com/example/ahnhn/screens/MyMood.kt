@@ -24,20 +24,19 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
+import com.example.ahnhn.PreferenceManagerImpl
 import com.example.ahnhn.dcl.coffeeMore
-import com.example.ahnhn.dcl.coffeeMore.a.randomCoffee
 import com.example.ahnhn.ui.theme.five
 import com.example.ahnhn.ui.theme.four
 import com.example.ahnhn.ui.theme.one
@@ -45,17 +44,18 @@ import com.example.ahnhn.ui.theme.shadows
 import com.example.ahnhn.ui.theme.three
 import com.example.ahnhn.ui.theme.two
 import com.example.ahnhn.viewm.MyMoodViewModel
-import kotlinx.coroutines.delay
-import java.time.LocalDateTime
-import java.time.temporal.ChronoUnit
+import java.util.Date
 
 @RequiresApi(Build.VERSION_CODES.O)
 @Composable
 fun MyMood(
     navController: NavHostController,
     start: MutableState<Boolean>,
-    viewModel: MyMoodViewModel = MyMoodViewModel(),
+    viewModel: MyMoodViewModel = MyMoodViewModel()
 ) {
+    // эта штука сохраняет данные ключ-значение
+    val date = PreferenceManagerImpl(LocalContext.current)
+
     val signs = listOf(
         "aries",
         "taurus",
@@ -73,29 +73,24 @@ fun MyMood(
     val zodiacName = remember { mutableStateOf("") }
 
     // смотрим за изменениями во вью модели
-
     val horoscopeData = viewModel.horoscopeData.collectAsState()
 
     val scrollState = rememberScrollState()
 
-    var date by remember { mutableStateOf({ LocalDateTime.now() }) }
-    var lastUpdated by remember { mutableStateOf(LocalDateTime.now()) }
-
-    var cofrecipe : coffeeMore = coffeeMore.a
-
+    val cofrecipe = remember { mutableStateOf(coffeeMore.a as coffeeMore) }
 
     val colst = remember { mutableStateOf("") }
 
     LaunchedEffect(Unit) {
-        while (true) {
-            val now = LocalDateTime.now()
-            if (ChronoUnit.DAYS.between(lastUpdated, now) >= 1) {
-                date = { now }
-                lastUpdated = now
-//                val cofrecipe : coffeeMore = randomCoffee()
-                cofrecipe = randomCoffee()
-            }
-            delay(3600000)
+        val savedDay = date.getString("day")
+        if (savedDay == null || Date().date > savedDay.toInt()){
+            cofrecipe.value = coffeeMore.randomCoffee()
+            date.saveString("id", cofrecipe.value.id.toString())
+            date.saveString("day", Date().date.toString())
+        }
+        else{
+            val id = date.getString("id")?.toInt()
+            cofrecipe.value = coffeeMore.getById(id?:0)
         }
     }
 
@@ -177,7 +172,7 @@ fun MyMood(
 
             ) {
 
-                CoffeeMoreRandom(cofrecipe)
+                CoffeeMoreRandom(cofrecipe.value)
 
                 LazyRow(
                     modifier = Modifier
