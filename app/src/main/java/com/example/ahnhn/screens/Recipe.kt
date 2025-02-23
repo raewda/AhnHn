@@ -16,31 +16,12 @@ import androidx.compose.runtime.MutableState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import com.example.ahnhn.R
 import com.example.ahnhn.dcl.coffeeMore
-import com.example.ahnhn.dcl.coffeeMore.a
-import com.example.ahnhn.dcl.coffeeMore.acbs
-import com.example.ahnhn.dcl.coffeeMore.cbwsasf
-import com.example.ahnhn.dcl.coffeeMore.cclatte
-import com.example.ahnhn.dcl.coffeeMore.cghc
-import com.example.ahnhn.dcl.coffeeMore.fic
-import com.example.ahnhn.dcl.coffeeMore.hamfw
-import com.example.ahnhn.dcl.coffeeMore.icm
-import com.example.ahnhn.dcl.coffeeMore.jccs
-import com.example.ahnhn.dcl.coffeeMore.mbd
-import com.example.ahnhn.dcl.coffeeMore.mimm
-import com.example.ahnhn.dcl.coffeeMore.pbem
-import com.example.ahnhn.dcl.coffeeMore.pc
-import com.example.ahnhn.dcl.coffeeMore.ps
-import com.example.ahnhn.dcl.coffeeMore.sc
-import com.example.ahnhn.dcl.coffeeMore.sil
-import com.example.ahnhn.dcl.coffeeMore.tfc
-import com.example.ahnhn.dcl.coffeeMore.vc
-import com.example.ahnhn.dcl.coffeeMore.wc
-import com.example.ahnhn.dcl.coffeeMore.yppil
 import com.example.ahnhn.ui.theme.five
 import com.example.ahnhn.ui.theme.four
 import com.example.ahnhn.ui.theme.one
@@ -51,11 +32,8 @@ import com.example.ahnhn.ui.theme.three
 fun Recipe(
     navController: NavHostController,
     recipes: MutableState<Boolean>,
+    item: coffeeMore
 ) {
-    val recipes = listOf(
-        sc, cclatte, pc, hamfw, ps, wc, cbwsasf, vc, sil, pbem, jccs, mimm, tfc, fic, mbd, acbs, a, yppil, cghc, icm
-    )
-
     val scrollState = rememberScrollState()
 
     Scaffold(
@@ -82,46 +60,54 @@ fun Recipe(
                 )
             }
 
-            Text(
-                "Jopa",
-                fontSize = 44.sp,
-                fontFamily = shadows,
-                color = three,
-                modifier = Modifier
-                    .padding(horizontal = 10.dp)
-            )
-
-            Column(
-                modifier = Modifier
-                    .fillMaxWidth(),
-                horizontalAlignment = Alignment.CenterHorizontally
-            ) {
-                Image(
-                    painter = painterResource(R.drawable.aimage),
-                    contentDescription = "image",
-                    modifier = Modifier
-                        .size(300.dp)
-                )
-            }
-
-            Text(
-                text = "ingredients",
-                modifier = Modifier
-                    .padding(horizontal = 10.dp),
-                fontSize = 24.sp,
-                fontFamily = shadows,
-                color = four
-            )
-
-            Text(
-                text = "recipe",
-                modifier = Modifier
-                    .padding(horizontal = 10.dp),
-                fontSize = 24.sp,
-                fontFamily = shadows,
-                color = three
-            )
+            coffeeRecipe(item)
 
         }
     }
+}
+
+@Composable
+fun coffeeRecipe(
+    item: coffeeMore
+) {
+    Text(
+        text = stringResource(item.name),
+        fontSize = 44.sp,
+        fontFamily = shadows,
+        color = three,
+        modifier = Modifier
+            .padding(horizontal = 10.dp),
+        lineHeight = 50.sp
+    )
+
+    Column(
+        modifier = Modifier
+            .fillMaxWidth(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Image(
+            painter = painterResource(R.drawable.aimage),
+            contentDescription = "image",
+            modifier = Modifier
+                .size(300.dp)
+        )
+    }
+
+    Text(
+        text = stringResource(item.ingredients),
+        modifier = Modifier
+            .padding(horizontal = 10.dp),
+        fontSize = 24.sp,
+        fontFamily = shadows,
+        color = four
+    )
+
+    Text(
+        text = stringResource(item.recipe),
+        modifier = Modifier
+            .padding(horizontal = 10.dp),
+        fontSize = 24.sp,
+        fontFamily = shadows,
+        color = three
+    )
 }

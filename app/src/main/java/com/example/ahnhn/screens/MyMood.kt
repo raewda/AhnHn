@@ -33,18 +33,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.text.style.TextDecoration
-import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import com.example.ahnhn.dcl.coffeeMore
-import com.example.ahnhn.dcl.coffeeMore.a.id
-import com.example.ahnhn.dcl.coffeeMore.a.ingredients
-import com.example.ahnhn.dcl.coffeeMore.a.name
-import com.example.ahnhn.dcl.coffeeMore.a.picture
 import com.example.ahnhn.dcl.coffeeMore.a.randomCoffee
-import com.example.ahnhn.dcl.coffeeMore.a.recipe
 import com.example.ahnhn.ui.theme.five
 import com.example.ahnhn.ui.theme.four
 import com.example.ahnhn.ui.theme.one
@@ -90,12 +83,16 @@ fun MyMood(
 
     var cofrecipe : coffeeMore = coffeeMore.a
 
+
+    val colst = remember { mutableStateOf("") }
+
     LaunchedEffect(Unit) {
         while (true) {
             val now = LocalDateTime.now()
             if (ChronoUnit.DAYS.between(lastUpdated, now) >= 1) {
                 date = { now }
                 lastUpdated = now
+//                val cofrecipe : coffeeMore = randomCoffee()
                 cofrecipe = randomCoffee()
             }
             delay(3600000)
@@ -190,10 +187,18 @@ fun MyMood(
                             onClick = {
                                 // передаём стейт зз
                                 viewModel.horoscopeGive(item)
+                                colst.value = item
                             },
                             modifier = Modifier
                                 .padding(horizontal = 2.dp),
-                            colors = ButtonDefaults.buttonColors(one)
+                            colors = ButtonDefaults.buttonColors(
+                                if (colst.value == item){
+                                    five
+                                }
+                                else{
+                                    one
+                                }
+                            )
                         ) {
                             Text(
                                 text = item,

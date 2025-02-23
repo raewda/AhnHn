@@ -174,7 +174,7 @@ fun coffeeMoreColumn(
 
             TextButton(
                 onClick = {
-                    navController.navigate("recipes")
+                    navController.navigate("recipes/${item.id}")
                 },
                 modifier = Modifier
                     .align(Alignment.CenterVertically)
