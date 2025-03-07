@@ -82,11 +82,13 @@ fun MyMood(
     val cofrecipe = remember { mutableStateOf(coffeeMore.sc) }
 
     LaunchedEffect(Unit) {
-        val savedDay = date.getString("day")
-        if (savedDay == null || Date().date > savedDay.toInt()){
+        val savedDate = date.getString("date")
+        val savedDay = Date(savedDate?.toLong()?:0).date
+        val savedMonth = Date(savedDate?.toLong()?:0).month
+        if (Date().date > savedDay || Date().month != savedMonth){
             cofrecipe.value = coffeeMore.randomCoffee()
             date.saveString("id", cofrecipe.value.id.toString())
-            date.saveString("day", Date().date.toString())
+            date.saveString("date", Date().time.toString())
         }
         else{
             val id = date.getString("id")?.toInt()
